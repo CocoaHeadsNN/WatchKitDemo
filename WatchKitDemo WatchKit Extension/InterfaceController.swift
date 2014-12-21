@@ -37,7 +37,7 @@ class InterfaceController: WKInterfaceController {
             let currentWidth = image.size.width * CGFloat(progress);
             let currentHeight = image.size.height * CGFloat(progress);
             
-            let rect = CGRectMake(drawingSize.width / 2.0 - currentWidth / 2.0, 10, currentWidth, currentHeight);
+            let rect = CGRectMake(drawingSize.width / 2.0 - currentWidth / 2.0, 50, currentWidth, currentHeight);
             
             image.drawInRect(rect);
             
